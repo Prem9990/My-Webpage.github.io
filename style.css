@@ -1,0 +1,94 @@
+body {
+    background-color: orangered;
+    text-align: center;
+}
+
+.profile {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-color: blue;
+}
+
+#Welcome {
+    width: auto;
+    z-index: 9
+}
+
+#Bio {
+    width: auto;
+}
+
+.line {
+    width: auto;
+}
+
+#Name {
+    font-family: 'Pattaya', cursive;
+    font-size: 30px;
+}
+
+.menu {
+    . width: 100%;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    display: inline;
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#C {
+    background: firebrick;
+}
+
+#C iframe {
+    width: 100%
+}
+
+.C h3 {
+    display: inline;
+}
+
+.C_1 {
+    color: white;
+    text-shadow: none;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
